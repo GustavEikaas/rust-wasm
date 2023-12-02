@@ -14,9 +14,13 @@
     "webpack"
   ],
   "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "rust-wasm": "../pkg"
   },
   "devDependencies": {
+    "@types/react": "^18.2.41",
+    "@types/react-dom": "^18.2.17",
     "vite": "^5.0.4",
     "vite-plugin-top-level-await": "^1.3.1",
     "vite-plugin-wasm": "^3.2.2"
