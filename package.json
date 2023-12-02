@@ -1,0 +1,8 @@
+{
+    "name": "rust-wasm",
+    "private": true,
+    "scripts": {
+        "build": "wasm-pack build",
+        "start": "pnpm -r start"
+    }
+}
