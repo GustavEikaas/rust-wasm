@@ -8,8 +8,8 @@ const Main = () => {
       <div>Hello rust-wasm</div>
       <button
         onClick={() => {
-          const r = new Math();
-          console.log(r.add(10, 15));
+          console.log(Math.add(2.3, 2.4));
+          console.log(2.3 + 2.4);
         }}
       >
         add
